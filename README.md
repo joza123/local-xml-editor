@@ -17,27 +17,27 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Tutorial for installing vite
 
-# Step 1: Create the React Project
+### Step 1: Create the React Project
 
-# 1. Initialize a new project with Vite (much faster than create-react-app)
+### 1. Initialize a new project with Vite (much faster than create-react-app)
 npm create vite@latest local-xml-editor -- --template react
 
-# 2. Navigate inside the newly created project folder
+### 2. Navigate inside the newly created project folder
 cd local-xml-editor
 
-# 3. Install the default starter dependencies
+### 3. Install the default starter dependencies
 npm install
 
-# Step 2: Install UI and XML Libraries
+### Step 2: Install UI and XML Libraries
 
 npm install antd @ant-design/icons fast-xml-parser
 
-# Step 3: Implement the Application Code
+### Step 3: Implement the Application Code
 
 Open the file src/App.jsx.
 Delete everything inside it.
 Paste the following complete, working code into src/App.jsx
 
-# Step 4: Run the Application
+### Step 4: Run the Application
 
 npm run dev
